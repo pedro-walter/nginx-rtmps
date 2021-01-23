@@ -77,6 +77,10 @@ ENV FACEBOOK_KEY ""
 ENV INSTAGRAM_URL rtmp://127.0.0.1:19351/rtmp/
 ENV INSTAGRAM_KEY ""
 
+#Twitch
+ENV TWITCH_URL rtmp://sao.contribute.live-video.net/app/
+ENV TWITCH_KEY ""
+
 ENV DEBUG ""
 
 COPY docker-entrypoint.sh /docker-entrypoint.sh
